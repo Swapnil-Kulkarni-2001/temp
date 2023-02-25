@@ -12,7 +12,7 @@ const CourseCard = () => {
                     Beatae veniam tenetur blanditiis commodi illum distinctio ut magnam cum assumenda perspiciatis
                     ipsa natus maiores neque adipisci delectus, sit sunt. Reprehenderit, dicta.</h1>
                 <div className="mt-5">
-                    <NavLink to="/courses/course" className="px-3 py-2 bg-red-400 rounded-3xl font-semibold text-white">Start watching</NavLink>
+                    <NavLink to="/courses/course" className="px-3 py-2 bg-[#328cf2] rounded-3xl font-semibold text-white">Start watching</NavLink>
                 </div>
             </div>
         </div>

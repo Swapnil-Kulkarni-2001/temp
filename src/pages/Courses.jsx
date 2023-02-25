@@ -6,14 +6,14 @@ const Courses = () => {
         <div className="flex flex-col p-5 md:p-20">
             <div className="flex flex-col md:flex-row mt-10 md:items-center">
                 <div className="flex flex-col ">
-                    <h1 className="text-3xl font-bold">Heading</h1>
+                    <h1 className="text-3xl md:text-5xl font-bold">Heading</h1>
                     <h1 className="md:w-[28rem] mt-5  text-md md:text-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, est consectetur.
                         Fugiat mollitia tempora delectus odit, non earum sequi esse totam optio ipsum vero
                         placeat quam voluptas ullam labore dolor!
                     </h1>
                     <div className="flex flex-row justify-evenly mt-5 md:justify-start">
-                        <button className="bg-red-300 px-5 py-3 rounded-md">button 1</button>
-                        <button className="bg-red-300 px-5 py-3 rounded-md md:mx-10">button 2</button>
+                        <button className="bg-[#0067e1] text-white font-medium px-5 py-3 rounded-md">button 1</button>
+                        <button className="bg-[#191919] text-white font-medium px-5 py-3 rounded-md md:mx-10">button 2</button>
                     </div>
                 </div>
                 <div className="mb-10 md:mb-0 md:ml-auto order-first md:order-last">
@@ -22,7 +22,7 @@ const Courses = () => {
             </div>
 
             <div className="mt-20">
-                <h1 className="text-xl font-bold text-center md:text-3xl">Recommended Courses</h1>
+                <h1 className="text-3xl font-bold text-center">Recommended Courses</h1>
                 <div className="mt-10 md:mt-12">
                     <div className="grid grid-cols-1 gap-y-10 gap-x-5 md:grid-cols-3">
                         <CourseCard/>

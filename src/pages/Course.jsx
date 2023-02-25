@@ -43,7 +43,7 @@ const Course = () => {
             </div>
 
             <div className={`flex flex-col md:mt-10 ${courseContentShowToggle ? 'mt-5' : 'mt-0'} md:w-1/2`}>
-                <h1 className="text-xl font-bold">Course details</h1>
+                <h1 className="text-3xl font-bold">Course details</h1>
                 <h1 className="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum eaque in amet repudiandae magni voluptatem rerum beatae a, autem reprehenderit vitae voluptates exercitationem odit sequi qui unde necessitatibus quo repellendus.
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum eaque in amet repudiandae magni voluptatem rerum beatae a, autem reprehenderit vitae voluptates exercitationem odit sequi qui unde necessitatibus quo repellendus.</h1>
             </div>
